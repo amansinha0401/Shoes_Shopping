@@ -2,8 +2,11 @@ import { AiFillStar } from "react-icons/ai";
 
 const data = [
   {
-    img: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
-    title: "Nike Air Monarch IV",
+    id: 1,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+,
+    img: "https://m.media-amazon.com/images/I/51Y3y0GujlL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Puma BMW ",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -11,10 +14,13 @@ const data = [
     company: "Nike",
     color: "white",
     category: "sneakers",
-  },
+      },
   {
-    img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
-    title: "Nike Air Vapormax Plus",
+    id: 2,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/71F-dn0dwNL._UX695_.jpg",
+    title: "Puma Pwrframe",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -25,8 +31,11 @@ const data = [
   },
 
   {
-    img: "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
-    title: "Nike Waffle One Sneaker",
+    id: 3,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/51cSS91ny+L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Nike Mens Precision Vi Running Shoe",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -35,43 +44,14 @@ const data = [
     color: "green",
     category: "sneakers",
   },
-  {
-    img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
-    title: "Nike Running Shoe",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "200",
-    company: "Adidas",
-    color: "black",
-    category: "sneakers",
-  },
-  {
-    img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
-    title: "Flat Slip On Pumps",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "200",
-    company: "Vans",
-    color: "green",
-    category: "flats",
-  },
-  {
-    img: "https://m.media-amazon.com/images/I/71zKuNICJAL._AC_UX625_.jpg",
-    title: "Knit Ballet Flat",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Adidas",
-    color: "black",
-    category: "flats",
-  },
+  
 
   {
-    img: "https://m.media-amazon.com/images/I/61V9APfz97L._AC_UY695_.jpg",
-    title: "Loafer Flats",
+    id:4,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/41+8JvBA9KL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Mens M Air Max Alpha Trainer 5 Running",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -82,6 +62,9 @@ const data = [
   },
 
   {
+    id:5,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
     img: "https://m.media-amazon.com/images/I/71VaQ+V6XnL._AC_UY695_.jpg",
     title: "Nike Zoom Freak",
     star: <AiFillStar className="rating-star" />,
@@ -94,8 +77,11 @@ const data = [
   },
 
   {
-    img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
-    title: "Nike Men's Sneaker",
+    id:6,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/712hQWPtDiL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Balenciaga Sheer",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -104,10 +90,12 @@ const data = [
     color: "blue",
     category: "sneakers",
   },
-
   {
-    img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
-    title: "PUMA BLACK-OCE",
+    id:7,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/61DkuWBPIYL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Adidas grand court",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -117,8 +105,11 @@ const data = [
     category: "sneakers",
   },
   {
-    img: "https://m.media-amazon.com/images/I/71E75yRwCDL._AC_UY575_.jpg",
-    title: "Pacer Future Sneaker",
+    id:8,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/713LAFOejcL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Adida Unisex",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -128,8 +119,11 @@ const data = [
     category: "sneakers",
   },
   {
-    img: "https://m.media-amazon.com/images/I/71jeoX0rMBL._AC_UX575_.jpg",
-    title: "Unisex-Adult Super",
+    id:9,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/71E209uyVRL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Puma ONE",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -139,8 +133,11 @@ const data = [
     category: "sneakers",
   },
   {
-    img: "https://m.media-amazon.com/images/I/61TM6Q9dvxL._AC_UX575_.jpg",
-    title: "Roma Basic Sneaker",
+    id:10,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/51ZIJv27k0L._AC_UL600_FMwebp_QL65_.jpg",
+    title: "New Balance",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -150,6 +147,9 @@ const data = [
     category: "sneakers",
   },
   {
+    id:11,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
     img: "https://m.media-amazon.com/images/I/7128-af7joL._AC_UY575_.jpg",
     title: "Pacer Future Doubleknit",
     star: <AiFillStar className="rating-star" />,
@@ -162,6 +162,9 @@ const data = [
   },
 
   {
+    id:12,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
     img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
     title: "Fusion Evo Golf Shoe",
     star: <AiFillStar className="rating-star" />,
@@ -173,8 +176,11 @@ const data = [
     category: "sneakers",
   },
   {
-    img: "https://m.media-amazon.com/images/I/719gdz8lsTS._AC_UX575_.jpg",
-    title: "Rainbow Chex Skate",
+    id:13,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/313CFnWPpRL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Nike new Skate",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -184,8 +190,11 @@ const data = [
     category: "flats",
   },
   {
-    img: "https://m.media-amazon.com/images/I/71gpFHJlnoL._AC_UX575_.jpg",
-    title: "Low-Top Trainers",
+    id:14,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/511Fg97EIPL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Puma Slides",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -195,8 +204,11 @@ const data = [
     category: "sandals",
   },
   {
-    img: "https://m.media-amazon.com/images/I/71pf7VFs9CL._AC_UX575_.jpg",
-    title: "Vans Unisex Low-Top",
+    id:15,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/71JedyW-pyL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Puma BMW M SPORT",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -206,8 +218,11 @@ const data = [
     category: "sandals",
   },
   {
-    img: "https://m.media-amazon.com/images/I/61N4GyWcHPL._AC_UY575_.jpg",
-    title: "Classic Bandana Sneakers",
+    id:16,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/51-nmbM-qvL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Puma Sliers",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -217,7 +232,10 @@ const data = [
     category: "sandals",
   },
   {
-    img: "https://m.media-amazon.com/images/I/61bncQ44yML._AC_UX695_.jpg",
+    id:17,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/71fkr0JfVyL._AC_UL600_FMwebp_QL65_.jpg",
     title: "Chunky High Heel",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -228,7 +246,10 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/71czu7WgGuL._AC_UY695_.jpg",
+    id:18,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/51lsbkNZBwL._AC_UL600_FMwebp_QL65_.jpg",
     title: "Slip On Stiletto High Heel",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -239,7 +260,10 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/61men05KRxL._AC_UY625_.jpg",
+    id:19,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/71RjwX4PumL._AC_UL600_FMwebp_QL65_.jpg",
     title: "DREAM PAIRS Court Shoes",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -250,7 +274,10 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
+    id:20,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/71oLUSuh7vL._AC_UL600_FMwebp_QL65_.jpg",
     title: "Nike Air Vapormax Plus",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -262,7 +289,10 @@ const data = [
   },
 
   {
-    img: "https://m.media-amazon.com/images/I/51PGWTXgf-L._AC_UY625_.jpg",
+    id:21,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/4125IFEnW4L._AC_UL600_FMwebp_QL65_.jpg",
     title: "Low Mid Block Heels",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -273,8 +303,11 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/616sA5XUKtL._AC_UY675_.jpg",
-    title: "Chunky High Heel",
+    id:22,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/51Dr7zqtUtL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Nike chunky",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "140,00",
@@ -284,7 +317,10 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/71h5+MbEK7L._AC_UY625_.jpg",
+    id:23,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/81vRwm45CZL._AC_UL600_FMwebp_QL65_.jpg",
     title: "Amore Fashion Stilettos",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -295,7 +331,10 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/61uw5RDxKQL._AC_UY625_.jpg",
+    id:24,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/61NnQoEPdlL._AC_UL600_FMwebp_QL65_.jpg",
     title: "Bridal Sandals Glitter",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -306,7 +345,10 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/71yhoZP0l6L._AC_UY695_.jpg",
+    id:25,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/71U2ZbaB-IL._AC_UL600_FMwebp_QL65_.jpg",
     title: "Wedding Prom Bridal",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -316,6 +358,48 @@ const data = [
     color: "black",
     category: "flats",
   },
+  {
+    id: 26,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: 'https://m.media-amazon.com/images/I/41B73xL6CBL._AC_UL600_FMwebp_QL65_.jpg',
+    title: "Nike Running Shoe",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Adidas",
+    color: "black",
+    category: "sneakers",
+  },
+  {
+    id: 27,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/51ttb1G2GAL._AC_UL600_FMwebp_QL65_.jpg",
+    title: "Flat Slip On Pumps",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$140,00",
+    newPrice: "200",
+    company: "Vans",
+    color: "green",
+    category: "flats",
+  },
+  {
+    id:28,
+    dis:"  As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated."
+    ,
+    img: "https://m.media-amazon.com/images/I/71LjpWQoo4L._AC_UL600_QL65_.jpg",
+    title: "Knit Ballet Flat",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$140,00",
+    newPrice: "50",
+    company: "Adidas",
+    color: "black",
+    category: "flats",
+  }
 ];
 
 export default data;

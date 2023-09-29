@@ -1,0 +1,57 @@
+.recommended-flex {
+    display: flex;
+    margin-left: 18rem;
+    background-color: #000; /* Black background */
+}
+
+.rc {
+    margin-left: 13rem;
+    margin-top: -80px;
+    font-size: 15px;
+    color: #555;
+    width: 85%;
+}
+
+.recommended-btns {
+    padding-top: 10px;
+}
+
+/* Adding aesthetic styles */
+.recommended-flex {
+    align-items: center; /* Center align items vertically */
+}
+
+.rc {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.recommended-btns button {
+    background: darkblue;    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.recommended-btns button:hover {
+    background-color: black; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .recommended-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+
+    .rc {
+        margin-left: 0;
+    }
+}

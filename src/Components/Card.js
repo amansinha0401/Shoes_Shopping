@@ -1,8 +1,7 @@
 import { BsFillBagFill } from "react-icons/bs";
-import { FaShoppingBag } from 'react-icons/fa';
 import { AiFillStar } from 'react-icons/ai';
 
-const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
+const Card = ({ img, title, star, reviews, prevPrice, newPrice , dis }) => {
   return (
     <>
       <section className="card">
@@ -10,7 +9,9 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
         <div className="card-details">
           <h3 className="card-title">{title}</h3>
           <section className="card-reviews">
-            {star} {star} {star} {star}
+            {Array.from({ length: star }, (_, index) => (
+              <AiFillStar key={index} className="star-icon" />
+            ))}
             <span className="total-reviews">{reviews}</span>
           </section>
           <section className="card-price">

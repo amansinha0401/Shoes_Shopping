@@ -1,0 +1,107 @@
+/* Updated Styles for the navigation bar */
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkblue;
+  padding: 8px 20px; /* Decreased padding for height */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.aka{
+  font-size: 20px;
+  color: white;
+}
+
+.iconic{
+  font-size: 20px;
+  color: white;
+  justify-content: space-between;
+  
+}
+.ico{
+  font-size: 20px;
+  color: white;
+  margin: 0 20px;
+ 
+}
+/* Example label styles */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.logo {
+  font-size: 24px; /* Increased font size */
+  color: #fff;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 30px; /* Increased font size */
+  color: white;
+  font-family: 'Sedgwick Ave Display', cursive;
+      font-weight: 400;
+}
+
+/* Style for the logo image */
+.logo img {
+  width: 40px; /* Adjusted logo size */
+  height: auto;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px; /* Increased font size */
+  width: 300px;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.search-input:focus {
+  background-color: white;
+  color: black;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center; /* Align vertically with label */
+}
+
+
+
+.icon-container a:hover {
+  color: black;
+}
+
+/* Additional styles for responsiveness (unchanged) */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .logo1,
+  .as {
+    margin: 10px 0;
+  }
+
+  .as {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+}
